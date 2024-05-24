@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hole-detection"
+version = "0.1.0"
+description = ""
+authors = ["Ivan Mikhailov <mikhailov.ivan@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hole_detection"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scan-track = {git = "https://github.com/IvanMikhailovIMCRAS/Scan_Track.git"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
